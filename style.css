@@ -1,0 +1,76 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    background-color: hsl(0, 0%, 8%);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Inter;
+    font-size: 14px;
+    }
+    
+    .first{
+      background-color: hsl(0, 0%, 12%);
+      height: 65vh;
+      width: 300px;
+      border-radius: 20px;
+      padding: 20px;
+    }
+    
+    .first img{
+        height: 90px;
+        width: 90px;
+      border-radius: 100px;
+      margin-left: 100px;
+    }
+
+    .txt1{
+        text-align: center;
+         background-color: hsl(0, 0%, 12%); 
+         color: white; 
+         font-weight: 700; 
+         font-size: 20px;
+    }
+
+    .txt2{
+        color: hsl(75, 94%, 57%); 
+        text-align: center; 
+        background-color: hsl(0, 0%, 12%);
+    }
+
+    .txt3{
+        background-color: hsl(0, 0%, 12%);
+         color: white; 
+         text-align: center;
+    }
+
+    .all{
+        background-color: hsl(0, 0%, 12%);
+         margin-left: 13px;
+    }
+    .box1{
+        background-color: hsl(0, 0%, 20%);
+        color: white;
+        height: 30px;
+        width: 270px;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 11px;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+
+    .box1:hover{
+        cursor: pointer;
+        background-color: hsl(75, 94%, 57%);
+        color:hsl(0, 0%, 12%) ;
+    }
+     
+
+
